@@ -75,6 +75,9 @@ defmodule Mix.Tasks.Format do
       as `.heex`. Without passing this flag, it is assumed that the code being
       passed via stdin is valid Elixir code. Defaults to "stdin.exs".
 
+    * `-` - output formatted code to stdout instead of writting it to the file.
+      This is useful, if your editor requires the formatted code on stdout.
+
   ## When to format code
 
   We recommend developers to format code directly in their editors, either
